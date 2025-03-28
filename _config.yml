@@ -1,3 +1,6 @@
 title: my blog
 theme: minima
 description: daily notes
+markdown: CommonMarkGFM
+kramdown:
+  input: GFM
