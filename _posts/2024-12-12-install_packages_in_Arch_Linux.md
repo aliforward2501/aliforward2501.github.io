@@ -1,6 +1,4 @@
 ---
----
----
 
 title: Arch Linux安装软件包
 date: 2024-12-12
