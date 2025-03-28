@@ -1,5 +1,5 @@
 ---
-title: HTTP Header头信息主要有哪些
+title: HTTP Header头信息
 date: 2021-05-21
 ---
 
