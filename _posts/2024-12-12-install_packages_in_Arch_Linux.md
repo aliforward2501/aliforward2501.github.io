@@ -10,7 +10,7 @@ date: 2024-12-12
 
 `sudo pacman -S packname_name`
 ### 其他相关命令
-
+ 
 1. 搜索软件包  
 `pacman -Ss package_name`  
 2. 查看已安装的软件包  
@@ -20,7 +20,9 @@ date: 2024-12-12
 4. 删除软件包及其依赖  
 `sudo pacman -Rsn packages_name`  
 5. 更新系统  
-`sudo pacman -Syu`  
+`sudo pacman -Syu` 
+
+<!--end-->
 ## 使用`yay`或`paru`安装AUR软件包
 
 AUR（Arch User Repository）是Arch社区维护的非官方软件仓库，其中的软件需要用`yay`或`paru`安装
@@ -47,13 +49,14 @@ makepkg -si
 1. 搜索AUR包  
 `yay -Ss packages_name`  
 2. 更新AUR软件  
-`yay -Syu`  
+`yay -Syu`
+
+<!--end-->
 ### 安装`paru`
 
 1. 安装`git`  
 `sudo pacman -S --needed base-devel git`  
 2. 克隆`paru`并安装  
-
 ```
 git clone https://aur.archlinux.org/paru.git
 cd paru
