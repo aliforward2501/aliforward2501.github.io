@@ -1,8 +1,6 @@
 ---
-
 title: Arch Linux安装软件包
 date: 2024-12-12
-
 ---
 
 # Arch Linux安装软件包
@@ -25,11 +23,11 @@ date: 2024-12-12
 
 `sudo pacman -R packages_name`
 
-5. 删除软件包及其依赖
+4. 删除软件包及其依赖
 
 `sudo pacman -Rsn packages_name`
 
-6. 更新系统
+5. 更新系统
 
 `sudo pacman -Syu`
 ##  使用`yay`或`paru`安装AUR软件包
